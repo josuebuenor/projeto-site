@@ -18,10 +18,14 @@ main {
     padding-bottom: 80px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
     border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h1 {
     font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h2 {
@@ -29,6 +33,11 @@ h2 {
 }
 
 img.lado {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+    min-width: none;
     float: right;
 }
 
@@ -43,4 +52,10 @@ img.lado {
 
 #aula-yt {
     text-align: center;
+}
+
+#imagem-principal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
